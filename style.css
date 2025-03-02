@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family: "Figtree", serif;
+}
+
+body {
+    min-width: 375px;
+    font-size : 16px;
+    display: flex;
+    background: hsl(47, 88%, 63%);
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.card {
+    background: hsl(0, 0%, 100%);
+    width: 380px;
+    border: 1px 1px 1px 1px solid black;
+    border-radius: 20px;
+    padding: 25px;
+    text-align: left;
+    box-shadow: 12px 12px hsl(0, 0%, 7%);
+}
+
+.im {
+    width: 100%;
+    align-items: center;
+}
+
+#image {
+    width: 100%;
+    max-width: 350px;
+    border-radius: 13px;
+}
+
+.write-up {
+    margin: 17px 0 0 0;
+}
+
+button {
+    background: hsl(47, 88%, 63%);
+    font-weight: 800;
+    font-size: 13px;
+    border: none;
+    padding: 7px 18px;
+    border-radius: 5px;
+    line-height: 1.2;
+}
+
+#b2 {
+    font-size: 15px;
+    color: black;
+    font-weight: 500;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+p {
+    color: #2c2c2c96;
+    margin: 10px 0;
+    line-height: 1.6;
+}
+
+.ft {
+    display: flex;
+}
+
+b {
+    padding: 10px;
+}
+
+#mm {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    max-width: 40px;
+    max-height: 40px;
+}
+
+@media (min-width: 1440px) {
+    
+}
